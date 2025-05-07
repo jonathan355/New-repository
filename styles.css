@@ -11,6 +11,13 @@ li {
   font-weight: 700;
 }
 
+.row__container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    }
+
 .nav__link--primary {
 background-color: #7a46e3;
 color: white;
@@ -45,18 +52,45 @@ border-radius: 40px;
     width: 80px;
 }
 
+.logo__description {
+    display: flex;
+    align-items: center;
+}
+
 
 /*MAIN*/
 
 .purple {
-    color: #7a46e3;
+    color: #6415ff;
 }
 
 .h1 {
     font-size: 15px;
 }
 
-.row hero__container {
+.hero__container {
     display: flex;
     flex-wrap: wrap;
+    width: 40%;
+}
+
+.email__form {
+    border: 1px solid black;
+   padding:12px;
+   border-radius: 34px; 
+   font-size: 15px;
+   display: inline-block;
+}
+
+.box {
+    width: 60%;
+   max-width: 1200px;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.hero__image--decscription {
+    display: flex;
+    flex-direction: column;
 }
