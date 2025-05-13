@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 li {
     list-style-type: none;
@@ -31,9 +36,11 @@ border-radius: 40px;
     height: 100px;
     width: 100%;
     max-width: 1000px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .nav__link--list {
@@ -90,7 +97,11 @@ border-radius: 40px;
    align-items: center;
 }
 
-.hero__image--decscription {
-    display: flex;
-    flex-direction: column;
+.hero__image img {
+   width: 100%
+}
+
+.customers__image img {
+    max-width: 450px;
+
 }
