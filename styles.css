@@ -16,7 +16,7 @@ li {
   font-weight: 700;
 }
 
-.row__container {
+.row {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -32,10 +32,9 @@ border-radius: 40px;
 
 /*NAVIGATION BAR */
 
-.nav__row {
-    height: 100px;
+.nav {
     width: 100%;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -99,12 +98,29 @@ border-radius: 40px;
 
 .customers__image img {
     max-width: 450px;
-
+    width: 100%;
+    height: 100%;
+    padding: 16px 25px;
 }
 
 /*FEATURES*/
 
+.container {
+    padding: 80px 0;
+}
+
+.row__row__features {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
 .features {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: calc(100%/3);
     display: flex;
 }
 
@@ -123,6 +139,11 @@ border-radius: 40px;
 
 /*QUALITY WORK SECTION*/
 
+.row__row__container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .screen__shot {
     height: 350px;
     width: 500px;
@@ -141,17 +162,16 @@ padding: 10px 25px;
 
 /*STEPS*/
 
-.container--steps {
+.steps__container {
     display: flex;
+}
+
+.row {
+    flex-direction: column;
 }
 
 .steps__box {
-    position: relative;
-}
-
-.steps__order {
     display: flex;
-    
 }
 
 /*VALUES*/
@@ -163,3 +183,7 @@ padding: 10px 25px;
     height: 100%;
     width: 100%;
 }
+
+/*PRICING*/
+
+

@@ -7,9 +7,8 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <section class="landing">
-        <nav>
-            <div class="row nav__row">
+    <div class="row">
+            <div class="nav">
                 <div class="logo__description">
                 <img class="logo" src="./assets/logo.svg" alt="">
                 <div class="nav__logo--title">Treact</div>
@@ -47,9 +46,10 @@
                     </li>
                 </ul>
             </div>
-        </nav>
-    </section>
-            <div class="row row__container">
+    </div>
+
+
+            <div class="row">
                 <div class="row hero__container">
                     <div class="title__description">
                         <h1>Beautiful React Templates <span class="purple">for you</span></h1>
@@ -75,14 +75,26 @@
                 </div>
                 </div>
             </div>
-            <section id="features">
+            
                 <div class="container">
+                    <div class="row__row__features">
                     <div class="row__features">
                     <h2 class="section__title">FEATURES</h2>
                     <h3 class="section__subtitle">We have Amazing <span class="purple">Service</span></h3>
                     <div class="section__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam laudantium amet, sapiente libero laborum velit iusto deleniti reiciendis eos voluptatum.</div>
                     </div>
                     <div class="features">
+                        <div class="feature">
+                            <div class="feature__row">
+                                <figure class="figure__img--wrapper">
+                                    <img src="https://cutzudev.github.io/treact_example/assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" alt="">
+                                </figure>
+                            </div>
+                            <div class="feature__text">
+                                <h2 class="feature__title">Secure</h2>
+                                <p class="feature__para">We strictly only deal with vendors that provide top notch security.</p>
+                            </div>
+                        </div>
                         <div class="feature">
                             <div class="feature__row">
                                 <figure class="figure__img--wrapper">
@@ -138,11 +150,12 @@
                                 <p class="feature__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, numquam?</p>
                             </div>
                         </div>
+                    </div>
                     </div>   
                 </div>
-            </section>
+        
             <section>
-                <div class="row row__container">
+                <div class="row__row__container">
                     <div class="row quality__container">
                         <div class="title__description">
                             <h1><span>QUALITY WORK<span class="purple"></span></h1>
@@ -160,14 +173,14 @@
                 </div>
             </section>
             <section>
-                <div class="container--steps">
+                <div class="row__row__container">
+                    <div class="steps__container">
                     <figure class="steps__img--wrapper">
                         <img src="https://cutzudev.github.io/treact_example/assets/hero-screenshot-2.241aac1fbc66db29d873.png" alt="">
                     </figure>
                     <div class="row">
                         <h2><span class="purple">STEPS</span></h2>
                         <h3>Easy to <span class="purple">Get Started.</span></h3>
-                    </div>
                     <div class="steps__box">
                     <div class="steps__details">
                         <div class="Register">
@@ -194,28 +207,36 @@
                         </div>
                     </div>
                 </div>
+                    </div>
+                    </div>
+                    
                 </div>
                 
             </section>
             <section class="values__container">
                 <div class="title__description">
-                    <h2>VALUES</h2>
+                    <h2> <span class="purple">VALUES</span></h2>
                 
                 <div class="subtitle__description">
-                    <h3>We Always Abide by Our Principles.</h3>
+                    <h3>We Always Abide by <span class="purple"> Our Principles.</span></h3>
                 </div>
                 <div class="description__para">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo consequatur aliquid alias voluptas nihil incidunt iste harum omnis tenetur, quis aut ea corrupti? Illum repudiandae cumque dolor assumenda, excepturi iure!</p>
                 </div>
                  <div class="values__description">
-                    <figure>
-                        <img class="values__img--wrapper" src="" alt="">
+                    <h2>Affordable</h2>
+                    <figure class="values__img--wrapper">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="rgba(39, 103, 73, 1)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="value__img">
+                        <line x1="12" y1="1" x2="12" y2="23"></line>
+                        <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                        </svg>  
                     </figure>
                     <div class="values__para">
                         <p>We promise to offer you the best rate we can - at par with the industry standard.</p>
                     </div>
                 
                 <div class="values__professionalism">
+                    <h2>Professionalism</h2>
                     <figure>
                         <img class="values__img--wrapper" src="" alt="">
                     </figure>
