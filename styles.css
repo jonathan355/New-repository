@@ -66,6 +66,10 @@ border-radius: 40px;
 
 /*MAIN*/
 
+.hero {
+    display: flex;
+}
+
 .purple {
     color: #6415ff;
 }
@@ -170,13 +174,15 @@ padding: 10px 25px;
     flex-direction: column;
 }
 
-.steps__box {
-    display: flex;
+.steps {
+display: flex;
 }
+
 
 /*VALUES*/
 
-.values__container {
+
+.values {
     display: flex;
 }
 .values__img {
@@ -185,5 +191,14 @@ padding: 10px 25px;
 }
 
 /*PRICING*/
+
+.pricing__title {
+    text-align: center;
+}
+.plans {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
 
 
