@@ -68,6 +68,7 @@ border-radius: 40px;
 
 .hero {
     display: flex;
+    align-items: center;
 }
 
 .purple {
@@ -75,6 +76,7 @@ border-radius: 40px;
 }
 
 .hero__container {
+    
     display: flex;
     flex-wrap: wrap;
     width: 40%;
@@ -199,6 +201,40 @@ display: flex;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    justify-content: center;
 }
 
+.border__box {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.pricing__tier--personal {
+    width: calc(100%/3);
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.pricing__tier--business {
+    width: calc(100%/3);
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.pricing__tier--enterprise {
+    width: calc(100%/3);
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.buy__now--personal button {
+    border-radius: 15px;
+}
+.buy__now--business button {
+    border-radius: 15px;
+}
+.buy__now--enterprise button {
+    border-radius: 15px;
+}
 
