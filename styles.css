@@ -245,7 +245,7 @@ display: flex;
     flex-wrap: wrap;
 }
 
-.main {
+.link {
     display: flex;
     flex-direction: column;
     width: calc(100%/5);
