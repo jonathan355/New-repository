@@ -238,3 +238,28 @@ display: flex;
     border-radius: 15px;
 }
 
+/*links*/
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/5);
+    align-items: center;
+}
+
+/*footer*/
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social__media__link--list {
+display: flex;
+}
