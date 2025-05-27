@@ -6,6 +6,7 @@
     <title>Final Project</title>
     <link rel="stylesheet" href="./styles.css">
     <script src="https://kit.fontawesome.com/19c0bd4eb2.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </head>
 <body>
     <div class="row">
@@ -46,6 +47,34 @@
                         ">Sign Up</a>
                     </li>
                 </ul>
+                <button class="btn__menu" onclick="openMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="menu__backdrop">
+                    <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                    <ul class="menu__links">
+                        <li class="menu__list"> 
+                            <a href="#" class="menu__link no-cursor">About</a> 
+                        </li>
+                        <li class="menu__list"> 
+                            <a href="#" class="menu__link no-cursor">Blog</a> 
+                        </li>
+                        <li class="menu__list" >
+                            <a href="#" class="menu__link no-cursor">Pricing</a> 
+                        </li>
+                        <li class="menu__list" >
+                            <a href="#" class="menu__link no-cursor">Contact Us</a> 
+                        </li>
+                        <li class="menu__list" >
+                            <a href="#" class="menu__link no-cursor">Login</a> 
+                        </li>
+                        <li class="menu__list" >
+                            <a class="menu__link no-cursor">Sign Up</a> 
+                        </li>
+                    </ul>
+                </div>
             </div>
     </div>
 
@@ -316,44 +345,39 @@
             <div class="row__row__container">
                     <div class="links">
                         <div class="link">
-                            <div class="main">MAIN
+                            <p class="main">MAIN</p>
                                 <a href="blog">Blog</a>
                                 <a href="faqs">FAQs</a>
                                 <a href="support">Support</a>
                                 <a href="About Us">About Us</a>
-                            </div>
                         </div>
                         <div class="link">
-                            <div class="product">PRODUCT
+                            <p class="product">PRODUCT</p>
                                 <a href="log__in">Log In</a>
                                 <a href="personal">Personal</a>
                                 <a href="business">Business</a>
                                 <a href="team">Team</a>
-                            </div>
                         </div>
                         <div class="link">
-                            <div class="press">PRESS
+                            <p class="press">PRESS</p>
                                 <a href="logos">Logos</a>
                                 <a href="events"><Events></a>
                                 <a href="stories">Stories</a>
                                 <a href="office">Office</a>
-                            </div>
                         </div>
                         <div class="link">
-                            <div class="team">TEAM
+                            <p class="team">TEAM</p>
                                 <a href="career">Career</a>
                                 <a href="founders">Founders</a>
                                 <a href="culture">Culture</a>
                                 <a href="onboarding">Onboarding</a>
-                            </div>
                         </div>
                         <div class="link">
-                            <div class="legal">LEGAL
+                            <p class="legal">LEGAL</p>
                                 <a href="gdpr">GDPR</a>
                                 <a href="privacy__policy">Privacy Policy</a>
                                 <a href="terms__of__service">Terms of Service</a>
                                 <a href="disclaimer">Disclaimer</a>
-                            </div>
                         </div>
                         </div>
                     </div>
