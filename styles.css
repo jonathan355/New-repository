@@ -300,6 +300,27 @@ display: flex;
     border-radius: 15px;
 }
 
+/*TESTIMONIALS*/
+
+.testimonials {
+    display: flex;
+    align-items: center;
+}
+
+.customer__img__wrapper img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.customer__img__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial__footer {
+    display: flex;
+}
 /*links*/
 
 .links {
@@ -330,8 +351,9 @@ display: flex;
     .nav__link--list {
         display: none;
     }
-}
-
-.btn__menu {
+    .btn__menu {
     display: block;
 }
+}
+
+
