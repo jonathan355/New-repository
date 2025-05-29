@@ -80,23 +80,20 @@
 
         <div class="row__row__container">
             <div class="hero">
-                <div class="row hero__container">
+                <div class="hero__container">
                     <div class="title__description">
                         <h1>Beautiful React Templates <span class="purple">for you</span></h1>
                         <p class="header__description">Our Templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.</p>
                     </div>
                     <div class="email__form">
-                        <form action="">
-                            <input type="text" placeholder="Your E-mail Address">
-                            <button>Get Started</button>
-                        </form>
-                        </div>
-                        <div class="Hero__customers">
+                            <input type="text" class="email__input" placeholder="Your E-mail Address">
+                            <button class="email__btn">Get Started</button>
+                    </div>
+                        <div class="hero__customers">
                             OUR TRUSTED CUSTOMERS
                         </div>
                         <div class="customers__image">
                             <img src="https://cutzudev.github.io/treact_example/assets/customers-logo-strip.680ac7c2e8ae28161d2c.png" alt="">
-                        
                         </div>
                 </div>
                 <div class="box">  
@@ -188,7 +185,7 @@
                 <div class="row__row__container">
                     <div class="quality__container">
                         <div class="title__description">
-                            <h1><span>QUALITY WORK<span class="purple"></span></h1>
+                            <h1><span class="purple">QUALITY WORK</span></h1>
                             <h2>Designed & Developed by <span class="purple">Professionals.</span></h2>
                             <p class="header__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo temporibus corrupti ipsa quia, alias odit ad nisi optio amet id.</p>
                             <div class="learn__more--btn">
@@ -214,7 +211,7 @@
                     <div class="steps__details">
                         <div class="steps">
                             <div class="steps__order">
-                            <p>01</p>
+                            <p class="steps__number">01</p>
                             </div>
                             <div class="steps__box">
                             <h3>Register</h3>
@@ -223,7 +220,7 @@
                         </div>
                         <div class="steps">
                             <div class="steps__order">
-                            <p>02</p>
+                            <p class="steps__number">02</p>
                             </div>
                             <div class="steps__box">
                             <h3>Download</h3>
@@ -231,8 +228,8 @@
                             </div>
                         </div>
                         <div class="steps">
-                            <div class="steps_order">
-                            <p>03</p>
+                            <div class="steps__order">
+                            <p class="steps__number">03</p>
                             </div>
                             <div class="steps__box">
                             <h3>Run</h3>
@@ -368,15 +365,23 @@
                                 <figure>
                                 <img class="customer__img" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80" alt="">
                                 </figure>
-                                <div class="customer__name">Charlotte Hale</div>
-                                <div class="customer__title">Director, Delos Inc.</div>
+                                <div class="Customer__details">
+                                    <div class="customer__name">Charlotte Hale</div>
+                                    <div class="customer__title">Director, Delos Inc.</div>
+                                </div>
                             </div>
                             <div class="testimonials__buttons">
                                 <button class="testimonial__button">
-                                <svg fill="none" stroke="rgb(100,21,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24">
+                                        <svg fill="none" stroke="rgb(100,21,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24">
                                             <path d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
                                         </svg>
-                                        </button>
+                                </button>
+                                <div class="divider"></div>
+                                <button class="testimonial__button">
+                                    <svg fill="none" stroke="rgb(100,21,255)" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24">
+                                            <path d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                                        </svg>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -384,46 +389,66 @@
             </div>
 
             <div class="row__row__container">
+                <div class="customer__cta">
+                    <div class="cta__para">
+                        Developers all over the world are happily using Treact.
+                    </div>
+                    <div class="cta__buttons">
+                        <button>
+                            Get Started
+                        </button>
+                        <button>
+                            Contact Us
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row__row__container">
                     <div class="links">
                         <div class="link">
                             <p class="main">MAIN</p>
-                                <a href="blog">Blog</a>
-                                <a href="faqs">FAQs</a>
-                                <a href="support">Support</a>
-                                <a href="About Us">About Us</a>
+                                <a class="white" href="blog">Blog</a>
+                                <a class="white" href="faqs">FAQs</a>
+                                <a class="white" href="support">Support</a>
+                                <a class="white" href="About Us">About Us</a>
                         </div>
                         <div class="link">
                             <p class="product">PRODUCT</p>
-                                <a href="log__in">Log In</a>
-                                <a href="personal">Personal</a>
-                                <a href="business">Business</a>
-                                <a href="team">Team</a>
+                                <a class="white" href="log__in">Log In</a>
+                                <a class="white" href="personal">Personal</a>
+                                <a class="white" href="business">Business</a>
+                                <a class="white" href="team">Team</a>
                         </div>
                         <div class="link">
                             <p class="press">PRESS</p>
-                                <a href="logos">Logos</a>
-                                <a href="events"><Events></a>
-                                <a href="stories">Stories</a>
-                                <a href="office">Office</a>
+                                <a class="white" href="logos">Logos</a>
+                                <a class="white" href="events">Events</a>
+                                <a class="white" href="stories">Stories</a>
+                                <a class="white" href="office">Office</a>
                         </div>
                         <div class="link">
                             <p class="team">TEAM</p>
-                                <a href="career">Career</a>
-                                <a href="founders">Founders</a>
-                                <a href="culture">Culture</a>
-                                <a href="onboarding">Onboarding</a>
+                                <a class="white" href="career">Career</a>
+                                <a class="white" href="founders">Founders</a>
+                                <a class="white" href="culture">Culture</a>
+                                <a class="white" href="onboarding">Onboarding</a>
                         </div>
                         <div class="link">
                             <p class="legal">LEGAL</p>
-                                <a href="gdpr">GDPR</a>
-                                <a href="privacy__policy">Privacy Policy</a>
-                                <a href="terms__of__service">Terms of Service</a>
-                                <a href="disclaimer">Disclaimer</a>
+                                <a class="white" href="gdpr">GDPR</a>
+                                <a class="white" href="privacy__policy">Privacy Policy</a>
+                                <a class="white" href="terms__of__service">Terms of Service</a>
+                                <a class="white" href="disclaimer">Disclaimer</a>
                         </div>
                         </div>
                     </div>
                
             </div>
+
+
             <div class="row__row__container">
             <div class="footer__info">
                 <div class="logo__description">
