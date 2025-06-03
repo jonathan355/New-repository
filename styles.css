@@ -7,6 +7,11 @@
     color:#243e63
 }
 
+    body {
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
+
 a {
     text-decoration: none;
 }
@@ -21,12 +26,27 @@ li {
 }
 
 .nav__link--anchor {
+  font-size: 14px;
+  padding-top: 4px;  
   margin: 0 12px;
-  color:#242424;
-  text-decoration: none; 
-  font-weight: 700;
+  letter-spacing: 0.35px;
+  border-bottom: 2px solid transparent;
+  position: relative;
+  
+  font-weight: 600;
 }
 
+.nav__link--anchor:hover:after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -6px;
+    height: 2px;
+    width: 100%;
+    background: #6415ff;
+    opacity: 1;
+    transition: ease 400ms;
+}
 .row {
     width: 100%;
     max-width: 1280px;
@@ -40,6 +60,11 @@ padding: 15px 15px;
 border-radius: 40px;
 }
 
+.nav__link--primary:hover {
+    background-color: #5011ccd9;
+    transform: ease 300ms;
+}
+
 .btn__menu {
     font-size: 20px;
     text-align: center;
@@ -51,17 +76,21 @@ border-radius: 40px;
 
 .btn__menu:hover {
     cursor: pointer;
+    transform: ease 300ms;
 }
 
 .menu__backdrop {
-    position: absolute;
-    background-color: white;
+    position: fixed;
+    background-color: #fff;
+    border: 1px solid #e5e7ebd9;
+    border-radius: 4px;
     max-height: 500px;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     z-index: 100;
+    margin: 24px 16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,15 +110,31 @@ flex-direction: column;
 align-items: center;
 }
 
+.menu__link--primary {
+    margin: 0;
+    padding: 10px 32px;
+    margin-top: 2px;
+    border-radius: 40px;
+    background: #6415ff;
+    color: #fff;
+    line-height: 1.5;
+    border: none;
+    width: auto;
+}
+
 .menu__list {
 padding: 32px 0;
 }
 .menu__link {
     font-size: 20px;
-    color:black;
+    color: #1a202c;
+    font-weight: 600;
+    line-height: 1;
+    margin: 8px 0;
+    padding-bottom: 4px;
+    border-bottom: 2px solid transparent;
     text-decoration: none;
 }
-
 .btn__menu--close {
     position: absolute;
     right: 20px;
@@ -133,6 +178,8 @@ padding: 32px 0;
 .logo__description {
     display: flex;
     align-items: center;
+    margin: 8px 0;
+    padding-bottom: 4px;
 }
 
 
@@ -187,14 +234,16 @@ padding: 32px 0;
 
 .box {
    width: 60%;
-   max-width: 1200px;
+   m1ax-width: 1200px;
    display: flex;
-   justify-content: space-between;
+   justify-content: flex-end;
    align-items: center;
 }
 
 .hero__image img {
-   width: 100%
+   width: 100%;
+   display: flex;
+   justify-content: flex-end;
 }
 
 .hero__customers {
@@ -484,6 +533,11 @@ display: flex;
         padding: 16px 0;
         padding-left: 32px;
         line-height: 1.5;
+    }
+
+    .logo {
+        margin: 8px 0;
+        padding-bottom: 4px;
     }
 }
 
