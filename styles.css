@@ -817,10 +817,16 @@ background: #f56565;
 
 /*TESTIMONIALS*/
 
+
 .testimonials__img__wrapper,
 .testimonials__description {
-width: 50%;
+width: 70%;
 box-sizing: border-box;
+padding: 90px ;
+}
+
+.testimonials__img__wrapper img {
+    width: 100%;
 }
 
 
