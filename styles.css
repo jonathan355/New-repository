@@ -58,6 +58,7 @@ background-color: #7a46e3;
 color: white;
 padding: 15px 15px;
 border-radius: 40px;
+white-space: nowrap;
 }
 
 .nav__link--primary:hover {
@@ -156,7 +157,6 @@ padding: 32px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .nav__link--list {
@@ -441,6 +441,7 @@ margin: 16px 0;
 
 .steps__container {
     display: flex;
+    align-items: center;
 }
 
 .steps__img {
@@ -466,7 +467,7 @@ margin-top: 32px;
     color: #cbd5e0;
 }
 
-.row, 
+ 
 .steps__img--wrapper {
     width: 50%;
 }
@@ -508,16 +509,25 @@ margin-top: 32px;
     padding: 32px 64px 32px 0;
 }
 
+.values__title__description {
+    padding: 32px 64px 32px 0;
+}
+
 .values__container {
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 150px;
+    display: flex;
 }
 
-.values__description,
+.values__title__description,
 .values__img {
 width: 50%;
+}
+
+.values__description__container {
+    display: flex;
+    align-items: center;
 }
 
 .values__title {
@@ -571,6 +581,10 @@ margin-right: 32px;
 
 .learn__more--btn button {
     padding: 16px 36px;
+}
+
+.feature__container {
+
 }
 
 /*PRICING*/
@@ -697,6 +711,12 @@ color:#1a202c
     color: #f7fafc;
 }
 
+.monthly--business {
+    padding: 35px;
+    font-weight: 500;
+}
+
+
 .header--business
 .business__title,
 .business__price,
@@ -707,6 +727,19 @@ color:#1a202c
 .internal--business, 
 .assistance--business {
 color:#f7fafc;
+font-weight: 500;
+}
+
+.small__business--title {
+    font-size: 20px;
+}
+
+
+.templates--business,
+.landing--business, 
+.internal--business, 
+.assistance--business {
+    padding-top: 26px;
 }
 
 .pricing__tier--personal {
@@ -784,6 +817,13 @@ background: #f56565;
 
 /*TESTIMONIALS*/
 
+.testimonials__img__wrapper,
+.testimonials__description {
+width: 50%;
+box-sizing: border-box;
+}
+
+
 .testimonials {
     display: flex;
     align-items: center;
@@ -796,7 +836,6 @@ background: #f56565;
 }
 
 .customer__img__wrapper {
-    display: flex;
     align-items: center;
 }
 
