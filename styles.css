@@ -6,10 +6,15 @@
     font-family: 'Inter';
     color:#243e63
 }
-
+.row__container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
 
     body {
-        max-width: 100vw;
+        max-w1idth: 100vw;
         overflow-x: hidden;
     }
 
@@ -154,7 +159,6 @@ padding: 32px 0;
 
 .nav {
     width: 100%;
-    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -190,6 +194,7 @@ padding: 32px 0;
 .hero {
     display: flex;
     align-items: center;
+    padding: 96px 0;
 }
 
 .purple {
@@ -197,7 +202,17 @@ padding: 32px 0;
 }
 
 .hero__container {
-    width: 40%;
+    width: 100%;
+}
+
+.hero__title {
+padding: 32px 0;
+}
+
+.hero__image img {
+   width: 100%;
+   display: flex;
+   justify-content: flex-end;
 }
 
 .email__form {
@@ -242,11 +257,7 @@ padding: 32px 0;
    align-items: center;
 }
 
-.hero__image img {
-   width: 100%;
-   display: flex;
-   justify-content: flex-end;
-}
+
 
 .hero__customers {
    margin-top: 80px;
@@ -351,11 +362,7 @@ line-height: 2;
 
 /*QUALITY WORK SECTION*/
 
-.row__row__container {
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
-}
+
 .screen__shot {
    width: 100%;
     z-index: 1;
@@ -380,7 +387,7 @@ border: none;
 }
 
 .quality__img--wrapper,
-.title__description {
+.quality__title__description {
     width: 50%;
 }
 .quality__img--wrapper {
@@ -414,6 +421,7 @@ font-size: 18px;
 font-weight: 500;
 color: #7c8ba1;
 line-height: 1.625;
+padding-bottom: 32px;
 }
 
 .quality__title {
@@ -451,9 +459,11 @@ width: 100%;
 }
 
 .row {
+    max-width: 100%;
     flex-direction: column;
     padding: 32px 0;
     padding-left: 64px;
+    
 }
 
 .steps {
@@ -929,7 +939,7 @@ line-height: 1.5;
     justify-content: space-around;
     width: 100%;
     background-color: #6415ff;
-    padding: 100px;
+    padding: 96px 0;
     align-items: center;
     border-radius: 4px;
     color: #edf2f7;
