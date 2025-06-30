@@ -939,13 +939,12 @@ line-height: 1.5;
     justify-content: space-around;
     width: 100%;
     background-color: #6415ff;
-    padding: 96px 0;
+    padding: 96px 32px;
     align-items: center;
     border-radius: 4px;
     color: #edf2f7;
     max-width: 1204px;
-    margin: 0 auto;
-    padding: 96px ;
+    margin: 96px 0;
 }
 
 .cta__para, 
@@ -992,6 +991,7 @@ line-height: 1.5;
     padding: 100px;
     color: #edf2f7;
     padding: 96px 32px;
+    margin: 96px 0 0 0;
 }
 
 .link {
@@ -1014,9 +1014,16 @@ line-height: 1.5;
 
 /*footer*/
 
+.footer__logo  {
+height: 32px;
+width: 32px;
+}
+
 .footer__logo--title,
 .copyright {
     color: #edf2f7;
+    font-weight: 700;
+    margin: 12px;
 }
 
 .footer__info {
