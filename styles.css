@@ -566,7 +566,8 @@ width: 50%;
 
 .values__description__container {
     display: flex;
-    align-items: center;
+    width: 100%;
+    
 }
 
 .values__title {
@@ -595,6 +596,18 @@ margin: 16px 0;
     width: 100%;
 }
 
+.values__affordable__img--wrapper {
+    padding: 4px;
+    background-color: #9ae6b4;
+    border-radius: 50%;
+}
+
+.values__briefcase__img--wrapper {
+    padding: 4px;
+    background-color: #feb2b2;
+    border-radius: 50%;
+    ma1rgin: -12px ;
+}
  
 .values__professionalism {
 margin-top: 32px;
@@ -610,6 +623,8 @@ margin-right: 32px;
     margin-top: 16px;
     line-height: 1.6;
     color: #718096;
+    width: 100%;
+    
 }
 
 .value__feature {
